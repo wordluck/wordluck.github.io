@@ -1,7 +1,7 @@
 ---
 layout: post
-title: QtCreator: module QtQuick is not installed
-abstrat: Solution for QtCreator front-end error shown - fix error: module "QtQuick" is not installed
+title: "QtCreator - module QtQuick is not installed"
+abstrat: "Solution for QtCreator front-end error shown - fix error: module "QtQuick" is not installed"
 tagline: "qt"
 tags : [qt,qtcreator]
 ---
@@ -18,9 +18,7 @@ I tried to run it from the terminal, it shows the error:
 
 # Solution
 
-```bash
-sudo apt-get install qtdeclarative5-qtquick2-plugin
-```
+    sudo apt-get install qtdeclarative5-qtquick2-plugin
 
 Problem resoved.
 
