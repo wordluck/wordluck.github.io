@@ -2,8 +2,8 @@
 layout: post
 title: QtCreator: module QtQuick is not installed
 abstrat: Solution for QtCreator front-end error shown - fix error: module "QtQuick" is not installed
-tagline: "jekyll"
-tags : [jekyll,jekyll-bootstrap,github pages]
+tagline: "qt"
+tags : [qt,qtcreator]
 ---
 {% include JB/setup %}
 
