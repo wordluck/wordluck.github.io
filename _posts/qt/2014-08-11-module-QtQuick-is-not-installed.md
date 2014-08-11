@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "QtCreator - module QtQuick is not installed"
-abstrat: "Solution for QtCreator front-end error shown - fix error: module "QtQuick" is not installed"
+title: "Fix: module QtQuick is not installed"
+abstrat: "Solution for QtCreator front-end error shown - fix error: module QtQuick is not installed"
 tagline: "qt"
 tags : [qt,qtcreator]
 ---
