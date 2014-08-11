@@ -12,9 +12,12 @@ not the regular opened sessions selector.
 
 I tried to run it from the terminal, it shows the error:
 
+>
 > file:///usr/share/qtcreator/welcomescreen/welcomescreen.qml:30:1:
 > module “QtQuick” is not installed
-> > import QtQuick 2.1
+>
+>    import QtQuick 2.1
+>
 
 # Solution
 
