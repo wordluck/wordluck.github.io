@@ -15,9 +15,16 @@ tagline: Enjoy words and have a good luck for you!
   </div>
   <div class="row">
    <div class="col-xs-2"><p class="text-right">Abstract:</p></div>
-   <div class="col-xs-10">{{ post.content | truncatewords:20 }}</div>
-  </div>
-  <a class="btn btn-link" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+   <div class="col-xs-10">
+   <div>
+   {% if post.abstrat %}
+   {{ post.abstrat }}
+   {% else %}
+   {{ post.content | truncatewords:20 }}</p>
+   {% endif %}
+   </div>
+   <a class="btn btn-link" title="{{ post.title }}" href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+   </div>
  </div>
  {% endfor %}
 </div>
